@@ -1,0 +1,33 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 46px;
+
+  &__logo {
+    width: 182px;
+    height: 84px;
+  }
+
+  &__list {
+    width: 400px;
+    margin-left: 82px;
+    margin-right: 82px;
+  }
+
+  &__phone {
+    width: 245px;
+    height: 50px;
+    margin-right: 62px;
+  }
+  &__cart {
+    width: 215px;
+    height: 50px;
+    // outline: 2px solid teal;
+    // outline-offset: -2px;
+  }
+  &__lang {
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+  }
+}

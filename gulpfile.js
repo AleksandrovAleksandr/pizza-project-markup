@@ -42,7 +42,7 @@ const imagesToWebp = () =>
     .pipe(dest('build/img'))
 
 const svgOptimizeAndToSprite = () =>
-  src('src/img/svg/icon-*.svg')
+  src('src/img/svg/*.svg')
     .pipe(
       imagemin([
         svgo({
@@ -50,14 +50,14 @@ const svgOptimizeAndToSprite = () =>
             {name: 'removeViewBox', active: false},
             {name: 'cleanupIDs', active: true},
             {name: 'removeDimensions', active: true},
-            {
-              name: 'removeAttributesBySelector',
-              params: {
-                selector: '[fill]',
-                attributes: ['fill'],
-              },
-              active: false,
-            },
+            // {
+            //   name: 'removeAttributesBySelector',
+            //   params: {
+            //     selector: '[fill]',
+            //     attributes: ['fill'],
+            //   },
+            //   active: false,
+            // },
           ],
         }),
       ])

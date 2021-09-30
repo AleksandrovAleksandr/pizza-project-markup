@@ -1,0 +1,20 @@
+.lang {
+  font-family: 'Alegreya', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #000;
+  background-color: #eff0f1;
+  border: none;
+  border-radius: 50%;
+
+  &:hover {
+    color: #ff3c3c;
+    cursor: pointer;
+  }
+
+  &:active {
+    color: #bf221e;
+    cursor: pointer;
+  }
+}

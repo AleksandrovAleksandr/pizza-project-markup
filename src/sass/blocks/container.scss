@@ -1,22 +1,8 @@
 .container {
-  min-height: 400px;
-  outline: 16px solid rgba(61, 189, 50, 0.555);
-  outline-offset: -16px;
-  border-top: 1px solid transparent;
+  max-width: 1344px;
+  // padding-left: 16px;
+  // padding-right: 16px;
   margin: 0 auto;
-  min-width: $mobile-width;
-  padding: 0 16px;
-  @media (min-width: $tablet-width) {
-    outline: 32px solid rgba(189, 71, 50, 0.555);
-    outline-offset: -32px;
-    min-width: 772px;
-    padding: 0 32px;
-  }
-  @media (min-width: $desktop-width) {
-    outline: 32px solid rgba(115, 50, 189, 0.555);
-    outline-offset: -32px;
-    min-width: 1312px;
-    max-width: 1920px;
-    padding: 0 32px;
-  }
+  border-left: 1px solid rgba(0, 128, 128, 0.5);
+  border-right: 1px solid rgba(0, 128, 128, 0.5);
 }

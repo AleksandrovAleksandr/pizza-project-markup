@@ -1,0 +1,64 @@
+// Позиционирование
+// Блочная модель
+// Типографика
+// Оформление
+// Анимация
+// Разное
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #000;
+
+  &:hover {
+    color: #ff3c3c;
+  }
+
+  &:active {
+    color: #bf221e;
+  }
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__info {
+    width: 160px;
+  }
+
+  &__title {
+    font-family: 'Alegreya', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 1.33px;
+    // line-height: 1.375;
+  }
+  &__description {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #848a9a;
+  }
+  &__count {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #e52d2d;
+    color: #fff;
+  }
+}

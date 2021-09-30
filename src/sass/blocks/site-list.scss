@@ -1,0 +1,41 @@
+// Позиционирование
+// Блочная модель
+// Типографика
+// Оформление
+// Анимация
+// Разное
+.site-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Alegreya', 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  // letter-spacing: 1px;
+  line-height: 1.5;
+
+  list-style-type: none;
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    display: block;
+    padding: 0 30px;
+
+    color: #000;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #ff3c3c;
+    }
+    &:active {
+      color: #bf221e;
+    }
+    &--active {
+      color: #e52d2d;
+    }
+  }
+}
