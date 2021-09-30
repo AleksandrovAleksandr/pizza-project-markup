@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Alegreya';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+    url('../fonts/alegreya-v19-latin_cyrillic-800.woff2') format('woff2'),
+    url('../fonts/alegreya-v19-latin_cyrillic-800.woff') format('woff'),
+    url('../fonts/alegreya-v19-latin_cyrillic-800.ttf') format('truetype'),
+    url('../fonts/alegreya-v19-latin_cyrillic-800.svg#Alegreya') format('svg');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+    url('../fonts/alegreya-v19-latin_cyrillic-900.woff2') format('woff2'),
+    url('../fonts/alegreya-v19-latin_cyrillic-900.woff') format('woff'),
+    url('../fonts/alegreya-v19-latin_cyrillic-900.ttf') format('truetype'),
+    url('../fonts/alegreya-v19-latin_cyrillic-900.svg#Alegreya') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/roboto-v27-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v27-latin_cyrillic-regular.woff') format('woff'),
+    url('../fonts/roboto-v27-latin_cyrillic-regular.ttf') format('truetype'),
+    url('../fonts/roboto-v27-latin_cyrillic-regular.svg#Roboto') format('svg');
+}

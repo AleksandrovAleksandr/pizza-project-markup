@@ -1,0 +1,18 @@
+<svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 19h-7a2 2 0 1 0 0 4h7v-4ZM28.54 57.17a9 9 0 1 1-17.02-.18" stroke="currentColor" stroke-width="2"/>
+<path d="M22.88 57.22A3.99 3.99 0 0 1 20 64a4 4 0 0 1-2.77-6.88M67 60a9 9 0 1 1-18 0" stroke="currentColor" stroke-width="2"/>
+<path d="M62 60a4 4 0 0 1-8 0" stroke="currentColor" stroke-width="2"/>
+<path clip-rule="evenodd" d="M46 60a12 12 0 0 1 24 0H46Z" stroke="currentColor" stroke-width="1.85" stroke-linejoin="round"/>
+<rect width="17" height="5" rx="2.5" transform="matrix(-1 0 0 1 37 33)" stroke="currentColor" stroke-width="2"/>
+<path clip-rule="evenodd" d="M50 27a6 6 0 0 1 0-12v12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 17a4 4 0 0 1 0 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60.5 48s2-14-7.5-23.5m-4.5 2S58.5 44 45 47c-9 1-10-9-10-9" stroke="currentColor" stroke-width="2"/>
+<path d="M46 57H8.5S11 43.5 21 37.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 52a1 1 0 1 1 0-2v2Zm5.5-2a1 1 0 1 1 0 2v-2ZM30 52a1 1 0 1 1 0-2v2Zm11.5-2a1 1 0 1 1 0 2v-2ZM10 50h5.5v2H10v-2Zm20 0h11.5v2H30v-2Z" fill="currentColor"/>
+<path stroke="currentColor" stroke-width="2" d="M17 17H1v16h16z"/>
+<path stroke="#E52D2D" stroke-width="2" d="M11 17H7v6h4zm5-16h-4v6h4z"/>
+<path stroke="currentColor" stroke-width="2" d="M22 1H6v16h16z"/>
+<path d="M12.5 45 4 35.5V33" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path clip-rule="evenodd" d="M21 28h-4v5h5l-1-5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+<path d="M58 69H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
