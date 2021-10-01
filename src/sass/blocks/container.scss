@@ -10,4 +10,8 @@
     // 772 + 16 + 16 = 804
     max-width: 772px;
   }
+  @media screen and (max-width: 804px) {
+    // 772 + 16 + 16 = 804
+    max-width: 288px;
+  }
 }
