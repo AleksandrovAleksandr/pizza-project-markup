@@ -27,6 +27,9 @@
 
   &__info {
     width: 185px;
+    @media screen and (max-width: 1344px) {
+      display: none;
+    }
   }
 
   &__title {

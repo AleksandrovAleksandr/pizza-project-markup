@@ -4,30 +4,55 @@
   padding-top: 46px;
 
   &__logo {
-    width: 182px;
-    height: 84px;
+    svg {
+      width: 182px;
+      height: 84px;
+      @media screen and (max-width: 1344px) {
+        width: 130px;
+        height: 60px;
+      }
+    }
   }
 
   &__list {
     width: 400px;
     margin-left: 82px;
     margin-right: 82px;
+    @media screen and (max-width: 1344px) {
+      display: none;
+    }
   }
 
   &__phone {
     width: 245px;
-    height: 50px;
+    // height: 50px;
     margin-right: 62px;
+    @media screen and (max-width: 1344px) {
+      width: 40px;
+      margin-left: auto;
+      margin-right: 32px;
+    }
   }
   &__cart {
     width: 215px;
-    height: 50px;
-    // outline: 2px solid teal;
-    // outline-offset: -2px;
+    margin-right: 44px;
+    @media screen and (max-width: 1344px) {
+      width: 40px;
+      margin-right: 70px;
+    }
   }
   &__lang {
     width: 48px;
     height: 48px;
-    margin-left: auto;
+  }
+
+  &__toggle {
+    width: 24px;
+    height: 3px;
+    display: none;
+    @media screen and (max-width: 1344px) {
+      display: block;
+      margin-left: 40px;
+    }
   }
 }

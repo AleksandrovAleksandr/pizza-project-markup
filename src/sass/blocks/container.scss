@@ -1,8 +1,13 @@
 .container {
-  max-width: 1344px;
+  max-width: 1344px; //1312 +16+16 = 1344
   // padding-left: 16px;
   // padding-right: 16px;
   margin: 0 auto;
   border-left: 1px solid rgba(0, 128, 128, 0.5);
   border-right: 1px solid rgba(0, 128, 128, 0.5);
+
+  @media screen and (max-width: 1344px) {
+    // 772 + 16 + 16 = 804
+    max-width: 772px;
+  }
 }

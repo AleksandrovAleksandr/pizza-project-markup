@@ -1,0 +1,31 @@
+.toggle {
+  position: relative;
+  width: 24px;
+  height: 3px;
+  background-color: #000;
+  border: none;
+  border-radius: 1.5px;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    bottom: 8px;
+    left: 0;
+    background-color: #000;
+    border-radius: 1.5px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 3px;
+    top: 8px;
+    left: 0;
+    background-color: #000;
+    border-radius: 1.5px;
+  }
+}
